@@ -1,12 +1,3 @@
-/*! HTML5 Boilerplate v9.0.1 | MIT License | https://html5boilerplate.com/ */
-
-/* main.css 3.0.0 | MIT License | https://github.com/h5bp/main.css#readme */
-/*
- * What follows is the result of much research on cross-browser styling.
- * Credit left inline and big thanks to Nicolas Gallagher, Jonathan Neal,
- * Kroc Camen, and the H5BP dev community and team.
- */
-
 /* ==========================================================================
    Base styles: opinionated defaults
    ========================================================================== */
@@ -18,13 +9,9 @@ html {
 }
 
 /*
- * Remove text-shadow in selection highlight:
- * https://twitter.com/miketaylr/status/12228805301
- *
  * Customize the background color to match your design.
  */
-
-::-moz-selection {
+d ::-moz-selection {
   background: #b3d4fc;
   text-shadow: none;
 }
@@ -73,7 +60,7 @@ fieldset {
 }
 
 /*
- * Allow only vertical resizing of textareas.
+ * Allow only vertical resizing of text areas.
  */
 
 textarea {
@@ -83,6 +70,21 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+.custom_gray {
+  color: #515151;
+}
+.custom_green_dark {
+  color: #8b9556;
+}
+.custom_green{
+  color:#abb557;
+}
+.custom_green_light{
+  color:#bed558;
+}
+.custom_white{
+  color:#e9e3e6;
+}
 
 /* ==========================================================================
    Helper classes
@@ -244,4 +246,3 @@ textarea {
     page-break-after: avoid;
   }
 }
-
